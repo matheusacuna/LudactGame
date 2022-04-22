@@ -533,13 +533,11 @@ MonoBehaviour:
   - {fileID: 1857492736784566, guid: 361b3921b68c940c288f39dcbdafc5e5, type: 3}
   - {fileID: 1857492736784566, guid: 8b70734812f37b546a5486560bf66b1c, type: 3}
   - {fileID: 1857492736784566, guid: 981dc317ed511894faaf4238eb0aa980, type: 3}
-  - {fileID: 1857492736784566, guid: 4c768c49469a1584b9976d620d7c1b4f, type: 3}
-  - {fileID: 1857492736784566, guid: 5103c6dba695f1141a5d166a795e46e1, type: 3}
   spawners:
   - {fileID: 2046112208}
   - {fileID: 1824982870}
   - {fileID: 1537199081}
-  amountOfObjects: 5
+  amountOfObjects: 3
   text: {fileID: 507522214}
   textCountFibonacci: {fileID: 1770587781}
 --- !u!1 &437312443
