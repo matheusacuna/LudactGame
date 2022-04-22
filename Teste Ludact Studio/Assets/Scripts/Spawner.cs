@@ -23,15 +23,6 @@ public class Spawner : MonoBehaviour
     [SerializeField] private TextMeshProUGUI text;
     [SerializeField] private TextMeshProUGUI textCountFibonacci;
 
-   
-    private void Awake()
-    {
-        //Singleton
-        if (instance == null)
-        {
-            instance = this;
-        }
-    }
 
     private void Start()
     {

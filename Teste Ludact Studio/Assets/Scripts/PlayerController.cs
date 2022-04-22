@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody rig;
+    private float timeCountSpeed;
     [SerializeField] private float speed;
     // Start is called before the first frame update
     void Start()
@@ -18,10 +19,9 @@ public class PlayerController : MonoBehaviour
         rig.velocity = Vector3.up * speed;
     }
 
-
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "col")
+        if (collision.gameObject.tag == "col")
         {
             gameObject.SetActive(false);
         }
